@@ -4,7 +4,7 @@ import math
 class Calculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("Resizable Calculator")
+        self.root.title("Calculator")
         self.root.configure(bg="#222222") 
         
         self.entry = tk.Entry(root, width=35, borderwidth=5, bg="#444444", fg="white", font=("Arial", 40, "bold"))  
